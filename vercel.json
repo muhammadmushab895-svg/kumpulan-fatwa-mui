@@ -7,7 +7,7 @@
       "destination": "https://fatwamui.com/storage/:path*"
     },
     {
-      "source": "/(.*)",
+      "source": "/((?!assets/|icon|manifest|sw\\.js|pdf\\.worker).*)",
       "destination": "/index.html"
     }
   ]
