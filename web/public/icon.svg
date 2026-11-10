@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#064e3b" />
+      <stop offset="100%" stop-color="#022c22" />
+    </linearGradient>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fde047" />
+      <stop offset="100%" stop-color="#ca8a04" />
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="url(#bg)" />
+  <circle cx="256" cy="256" r="210" stroke="url(#gold)" stroke-width="6" fill="none" opacity="0.3" stroke-dasharray="12 12" />
+  <!-- Book Icon -->
+  <g transform="translate(106, 126) scale(1.2)" fill="none" stroke="url(#gold)" stroke-width="14" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M20 40c40-20 80-20 110 0v160c-30-20-70-20-110 0z" fill="#047857" fill-opacity="0.3" />
+    <path d="M240 40c-40-20-80-20-110 0v160c30-20 70-20 110 0z" fill="#047857" fill-opacity="0.3" />
+    <path d="M130 40v160" />
+    <!-- Scales balance on top -->
+    <path d="M130 20v20" stroke="#fde047" stroke-width="12" />
+    <path d="M90 20h80" stroke="#fde047" stroke-width="10" />
+  </g>
+  <text x="256" y="420" text-anchor="middle" font-family="sans-serif" font-weight="bold" font-size="34" fill="#fde047" letter-spacing="4">FATWA MUI</text>
+</svg>

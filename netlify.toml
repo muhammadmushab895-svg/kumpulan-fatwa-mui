@@ -1,0 +1,15 @@
+[build]
+  base = "web"
+  publish = "dist"
+  command = "npm run build"
+
+[[redirects]]
+  from = "/pdf-proxy/*"
+  to = "https://fatwamui.com/storage/:splat"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
